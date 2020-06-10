@@ -1,0 +1,15 @@
+{
+  "name": "web-app-skeleton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Byron Dunkley",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel index.html"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
