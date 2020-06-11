@@ -26,8 +26,19 @@ img {
     padding: 0.5em 1.3em;
 }
 
+h1 {
+    grid-column: 2;
+}
 .container {
     margin: 0 auto;
     display: grid;
     grid-template-columns: minmax(1em, 40px) 1fr  minmax(1em, 40px);
+}
+
+form {
+    grid-column: 2;
+}
+
+section {
+    grid-column: 2;
 }
