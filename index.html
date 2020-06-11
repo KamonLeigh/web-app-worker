@@ -7,8 +7,22 @@
     <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
-    <h1>Web App</h1>
-    
-    <script src="./index.js"></script>
+    <main class="container">
+        <h1>Web App</h1>
+        <form>
+            <input type="text" name="fname" minlength="5"/>
+            <input type="number" name="num" />
+            <select name="pets" id="pet-select">
+                <option value="a">string method</option>
+                <option value="b">maths method</option>
+            </select>
+            <button type="submit" class="btn btn-action">click me</button>
+        </form>
+        <section>
+            <p class="result"></p>
+            <button class="btn btn-clear">Clear</button>
+        </section>
+    </main>
+    <script type="module" src="./index.js"></script>
 </body>
-</html>
+</htmlk>

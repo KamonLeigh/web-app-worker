@@ -11,5 +11,8 @@
   "devDependencies": {
     "jest": "^26.0.1",
     "parcel-bundler": "^1.12.4"
-  }
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
 }

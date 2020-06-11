@@ -17,3 +17,17 @@ img {
     display: block;
     width: 100%;
 }
+
+.btn {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    border: none;
+    padding: 0.5em 1.3em;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(1em, 40px) 1fr  minmax(1em, 40px);
+}

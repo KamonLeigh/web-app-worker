@@ -1,6 +1,12 @@
 console.log("Hello World")
-import { title } from "./elements";
-import { handleClick } from "./handlers";
+import { form, result  } from "./elements";
+import { handleForm } from "./handlers";
+import { myWorker } from "./utils";
 
 
-title.addEventListener('click', handleClick);
+
+myWorker.onmessage = function(e) {
+    console.log('Message received from worker');
+    result.textContent = e.data;
+}
+form.addEventListener("submit", handleForm)
