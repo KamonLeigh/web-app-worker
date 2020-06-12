@@ -1,10 +1,6 @@
 import { myWorker } from "./utils";
 import { result } from "./elements";
 
-export function handleClick(e) {
-    console.log(e.currentTarget);
-    
-}
 
 export function handleForm(e) {
     e.preventDefault();
