@@ -24,12 +24,26 @@ img {
     font-size: 0.9rem;
     border-radius: 3px;
     border: none;
-    padding: 0.5em 1.3em;
+    padding: 0.5em 1.6em;
     cursor: pointer;
+    color: #fff;
 }
 
+.btn-action {
+  background-color: #0275d8;
+}
+
+.btn-action:hover {
+  background-color: #025baa;
+}
+
+
 .btn-clear {
-    align-self: center;
+    background-color: #f0ad4e;
+}
+
+.btn-clear:hover {
+    background-color: #d18d2f;
 }
 
 h1 {
@@ -41,6 +55,9 @@ h1 {
     display: grid;
     grid-template-columns: minmax(1em, 40px) 1fr  minmax(1em, 40px);
 }
+
+
+
 
 form {
     display: grid;
