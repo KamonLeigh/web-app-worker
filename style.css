@@ -29,6 +29,8 @@ img {
     color: #fff;
 }
 
+
+
 .btn:disabled {
     opacity: 0.5;
     cursor: not-allowed;
@@ -40,6 +42,12 @@ img {
 
 .btn-action:hover {
   background-color: #025baa;
+}
+
+@media(min-width: 600px) {
+    .btn-action {
+        justify-self: center;
+    }
 }
 
 
@@ -84,7 +92,7 @@ form {
     display: grid;
     grid-column: 2;
     border: 1px solid #b3b3b3;
-    max-width:800px;
+    max-width:700px;
     padding: 1.8em;
     border-radius: 3px;
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.1);
@@ -120,6 +128,12 @@ section {
     padding: 2em;
     flex-direction: column;
     margin-block-end: 2em;
+}
+
+@media(min-width: 600px) {
+    .btn-clear {
+        margin: 0 auto;
+    }
 }
 
 
