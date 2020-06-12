@@ -20,14 +20,20 @@ img {
 
 .btn {
     text-transform: capitalize;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     border-radius: 3px;
     border: none;
     padding: 0.5em 1.3em;
+    cursor: pointer;
+}
+
+.btn-clear {
+    align-self: center;
 }
 
 h1 {
     grid-column: 2;
+    justify-self: center;
 }
 .container {
     margin: 0 auto;
@@ -41,4 +47,8 @@ form {
 
 section {
     grid-column: 2;
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+    margin-block-end: 2em;
 }
