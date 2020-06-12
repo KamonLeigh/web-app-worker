@@ -15,7 +15,7 @@ body {
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
 
 .btn {
@@ -45,10 +45,18 @@ form {
     grid-column: 2;
 }
 
+label {
+    text-transform: capitalize;
+}
+
 section {
     grid-column: 2;
     display: flex;
     padding: 2em;
     flex-direction: column;
     margin-block-end: 2em;
+}
+
+.result {
+    letter-spacing: 1.3;
 }
