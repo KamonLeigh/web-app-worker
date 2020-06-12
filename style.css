@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
     color: #404040;
     letter-spacing: 1.1px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -48,6 +49,7 @@ form {
 
 label {
     text-transform: capitalize;
+    font-weight: 700;
 }
 
 section {
