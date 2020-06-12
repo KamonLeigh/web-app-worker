@@ -42,6 +42,7 @@ h1 {
 }
 
 form {
+    display: grid;
     grid-column: 2;
 }
 
