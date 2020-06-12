@@ -52,6 +52,16 @@ label {
     font-weight: 700;
 }
 
+input,
+select
+{
+    font-family: inherit;
+}
+
+select {
+    text-transform: capitalize;
+}
+
 section {
     grid-column: 2;
     display: flex;
