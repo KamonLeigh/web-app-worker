@@ -1,5 +1,5 @@
 onmessage = function(e) {
-    console.log(e.data);
+
     const { number, name, method } = e.data;
 
      if (isNaN(parseInt(number))) {

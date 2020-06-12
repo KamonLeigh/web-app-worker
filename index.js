@@ -1,4 +1,4 @@
-console.log("Hello World")
+
 import { form, result, clearBtn  } from "./elements";
 import { handleForm, clearText } from "./handlers";
 import { myWorker } from "./utils";
